@@ -798,10 +798,19 @@ body {
   display: flex;
   width:80%;
   margin: auto;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ top:-110px;
  
  flex-wrap: wrap;
 }
 
-/* #apimage>div>img{
-  max-width: 80%;
-} */
+#apimage>div{
+  margin:10px;
+}
+
+#apimage>div>img{
+  background-image: cover;
+  border:5px solid gray;
+}
