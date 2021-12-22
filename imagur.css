@@ -788,3 +788,25 @@ body {
   width: 80%;
   margin:auto;
 }
+.searchInpug:focus{
+  border:none;
+  color:red;
+  font-size: 15px;
+  outline: none;
+}
+
+
+#debouncingContainer{
+  width:510px;
+  background:white;
+  height:200px;
+  border-radius: 3px;
+  position:absolute;
+  top:60px;
+  left:28%;
+  padding:20px;
+  z-index: 10000;
+  display:flex;
+  flex-direction: column;
+  overflow:scroll;
+}
